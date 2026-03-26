@@ -39,18 +39,8 @@ Este projeto foi desenvolvido para praticar:
 
 ---
 
-## 📷 Preview
-*(Adicione aqui uma imagem do seu site depois)*
-
----
-
 ## 📎 Status
 ✅ Projeto finalizado
-
----
-
-## 🔗 Acesse o projeto
-*(Adicione aqui o link quando publicar, ex: GitHub Pages)*
 
 ---
 
