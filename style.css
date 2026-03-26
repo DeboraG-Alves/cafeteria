@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Italianno&family=Montez&family=Satisfy&display=swap');
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+:root {
+    --fonte-padrao: 'Arial, verdana, Helvetica, sans-serif';
+    --fonte-destaque: 'italianno', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+} /*ajuda a imagem a não quebrar, mantem tamanho e altura*/
+
+.banner img {
+    border-radius: 8px;
+}
+
+body {
+    font-family: var(--fonte-destaque);
+    margin: 0;
+    background: #d6d2c5;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 10px;
+}
+
+body h1 {
+    font-family: "Italianno", cursive;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+body img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(54, 31, 31), rgb(117, 87, 87));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+header>p {
+    margin: auto;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav>a:hover {
+    background-color: #684d4d;
+    color: #301f1f;
+}
+
+.banner {
+    background-image: linear-gradient(to bottom, rgb(199, 158, 131), rgb(241, 221, 191));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section > p {
+    font-size: 26px;
+}
+
+.menu {
+    background: white;
+    color: #4b2d2d;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center; 
+    flex-direction: column;   
+    font-size: 26px; 
+}
+
+.menu .item {
+    width: 200px;
+}
+
+.menu h2 {
+    margin-bottom: 5px;
+}
+
+.menu p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.produtos {
+    display: flex; /* produtos lado a lado*/
+    flex-wrap: wrap; /*organiza lado a lado e em baixo do outro*/
+    justify-content: center;
+    gap: 20px; /*cria espaço entre elementos dentro de um container*/
+}
+
+.item {
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s; /*movimento suave a caixa*/
+}
+
+.item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+} /*diminuir a foto*/
+
+.item:hover {
+    transform: scale(1.05); /*efeito de movimento na caixa*/
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.item h3 {
+    margin: 10px 0 5px;
+}
+
+.item p {
+    margin: 0;
+    font-weight: bold;
+}   
+
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comentarios h2 {
+    width: 100%;
+}
+
+.comentario {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+footer {
+    background: linear-gradient(135deg, #3e2723, #5d4037);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+   }
