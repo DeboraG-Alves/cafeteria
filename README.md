@@ -26,8 +26,6 @@ O objetivo principal é demonstrar habilidades em estruturação HTML e organiza
 ---
 
 ## 📂 Estrutura do projeto
-## 📁 Estrutura do projeto
-
 ```bash
 Aroma-Cafe/
 │
