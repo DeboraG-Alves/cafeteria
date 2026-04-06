@@ -1,4 +1,4 @@
-# ☕ Aroma Café <a href="https://deborag-alves.github.io/cafeteria/cafeteria.html">(Acessar)</a>
+# ☕ Aroma Café <a href="https://deborag-alves.github.io/cafeteria/cafeteria.html">[🚀Clique aqui para acessar o projeto]</a>
 
 Um site moderno de cafeteria desenvolvido com foco em apresentação visual de produtos e organização de layout.
 
