@@ -26,6 +26,25 @@ O objetivo principal é demonstrar habilidades em estruturação HTML e organiza
 ---
 
 ## 📂 Estrutura do projeto
+## 📁 Estrutura do projeto
+
+```bash
+Aroma-Cafe/
+│
+├── index.html        # Página principal do site
+├── style.css         # Estilização do layout
+│
+├── imagens/          # Pasta com todas as imagens do projeto
+│   ├── pexels-juliomelanda-pqn1.png   # Banner
+│   ├── expresso.jpg
+│   ├── cappuccino.jpg
+│   ├── latte.jpg
+│   ├── salgada.jpg
+│   ├── donuts.jpg
+│   └── doce.jpg
+│
+└── README.md         # Documentação do projeto
+```
 
 ---
 
